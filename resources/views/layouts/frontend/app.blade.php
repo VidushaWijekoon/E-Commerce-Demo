@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8" />
@@ -8,6 +8,9 @@
     <meta name="description" content="Travel Dreams" />
     <meta name="author" content="Travel Dreams" />
     <meta name="keywords" content="Travel Dreams" />
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" />
     <!-- Google Fonts -->
@@ -24,6 +27,7 @@
     <main id="main">
         @yield('content')
     </main>
+    @include('components.frontend.footer')
     @include('libraries.frontend.scripts')
 </body>
 

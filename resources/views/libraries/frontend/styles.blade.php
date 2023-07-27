@@ -7,6 +7,8 @@
 
 <!-- Template Main CSS File -->
 <link href="{{ asset('frontend/css/main.css') }}" rel="stylesheet">
+<link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ asset('vendor/owl-carousel/owl.carousel.css') }} ">
+<link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.css') }} ">
+<link rel="stylesheet" href="{{ asset('vendor/nouislider/nouislider.css') }} ">

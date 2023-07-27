@@ -15,4 +15,8 @@ class DashboardController extends Controller
     public function category(){
         return view('pages.admin.category.index');
     }
+
+    public function category_create (){
+         return view('pages.admin.category.create');
+    }
 }

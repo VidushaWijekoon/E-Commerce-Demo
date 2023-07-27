@@ -170,8 +170,7 @@
                  </a>
 
                  <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
-                     <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded mr-1" alt="Charles Hall" />
-                     <span class="text-dark">Charles Hall</span>
+                     <span class="text-dark text-capitalize">{{ Auth::user()->username }}</span>
                  </a>
                  <div class="dropdown-menu dropdown-menu-right">
                      <a class="dropdown-item" href="pages-profile.html"><i class="align-middle mr-1"
@@ -188,7 +187,17 @@
                              data-feather="help-circle"></i>
                          Help Center</a>
                      <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#">Log out</a>
+
+                     <a class="dropdown-item" href="{{ route('logout') }}"
+                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                         <i class="fa fa-sign-out"></i>
+                         <span class="mx-2">{{ __('Logout') }}</span>
+                     </a>
+
+                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                         @csrf
+                     </form>
+
                  </div>
              </li>
          </ul>

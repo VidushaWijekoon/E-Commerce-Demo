@@ -88,6 +88,7 @@
                      </li>
                  </ul>
              </li>
+
              <li class="sidebar-header">Other</li>
 
              <li class="sidebar-item">

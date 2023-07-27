@@ -19,5 +19,12 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', [HomepageController::class, 'index'])->name('frontend.index');
-Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
-Route::get('/admin/category', [DashboardController::class, 'category'])->name('admin.dashboard.category');
+Route::get('/shop', [HomepageController::class, 'shop'])->name('frontend.shop');
+
+Route::prefix('/admin')->middleware('auth', 'isAdmin')->group(function (){
+    Route::get('/dashaboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
+
+    Route::get('/category', [DashboardController::class, 'category'])->name('admin.dashboard.category');
+    Route::get('/category/create', [DashboardController::class, 'category_create'])->name('admin.dashboard.category.create');
+});
+ 
