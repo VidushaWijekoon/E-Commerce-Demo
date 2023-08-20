@@ -1,49 +1,5 @@
 @extends('layouts.frontend.app')
 @section('content')
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Browse our amazing fleet</h2>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/coeps.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">Coupes</span>
-                </div>
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/luxury.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">Luxury cars</span>
-                </div>
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/saloon.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">Saloon</span>
-                </div>
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/suv.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">SUVs</span>
-                </div>
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/sports.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">Sportscars</span>
-                </div>
-
-                <div class="col-lg-2">
-                    <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="">
-                    <span class="text-bold d-flex justify-content-center mt-1" style="font-weight: 700">Multiseaters</span>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container">
@@ -58,7 +14,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-briefcase"></i></div>
-                    <h4 class="title"><a href="">UAE Visa</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         We have a dream of getting a visa which is a dream that many people have so they can leave their
                         countries to come someplace else. Specifically, they want to come to the United Arab emirates. Fly
@@ -67,7 +23,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                    <h4 class="title"><a href="">Travel Tickets</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         We always excel in providing quality services for customers across the country. Our staffs are well
                         equipped to handle all types of ticketing services for a smooth and stress-free experience.
@@ -75,7 +31,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-bar-chart"></i></div>
-                    <h4 class="title"><a href="">City Tour</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         We provide the best Dubai City Tour in town. We strive to provide affordable Dubai city tour
                         packages that meet the needs of our customers. We ensure that you get a taste of all sides of Dubai.
@@ -83,7 +39,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-binoculars"></i></div>
-                    <h4 class="title"><a href="">Full Day Trip</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         Discover the fascinating contrasts between the traditional and modern sides of Dubai on this private
                         1-day tour from Dubai, Abu Dhabi, Ras al-Khaimah, or Fujairah.
@@ -91,7 +47,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                    <h4 class="title"><a href="">Desert Safari</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         The desert safari in Dubai has always been one of the most thrilling experiences for people visiting
                         Dubai. Experience a spectacular view of sand dunes and adventure sports.
@@ -99,7 +55,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                    <h4 class="title"><a href="">Documents Delivery</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         We at Travellers Dreams are taking all the precautionary measures to deliver your packages safely.
                         All our riders comply with all safety measures to get their things safe and secure.
@@ -107,7 +63,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                    <h4 class="title"><a href="">Airport drop and Pickup</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         Enjoy a hassle-free arrival in Dubai with this private transfer service. Meet your driver at Dubai
                         International Airport, and relax on the journey to your accommodation in Dubai
@@ -115,7 +71,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                    <h4 class="title"><a href="">Chauffeur Drive</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         Our experienced drivers and range of premium cars are available 24×7. We offer the most dependable
                         chauffeured car services in the UAE: Be it a limo pick-up for your VIP guests or a family day out.
@@ -123,7 +79,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                    <h4 class="title"><a href="">Hotel Boooking</a></h4>
+                    <h4 class="title"><a href="">Lorem ipsum dolor sit amet.</a></h4>
                     <p class="description">
                         Hotel Booking System is online booking engine that allows guests to make secure online reservations
                         through hotel website and helps hotels to accept bookings and collect payments online.

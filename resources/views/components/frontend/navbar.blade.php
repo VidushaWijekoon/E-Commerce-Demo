@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <a href="{{ route('frontend.index') }}" class="logo">
-            <img src="{{ asset('img/TD-LOGO-01.svg') }}" alt="logo" class="img-fluid w-100">
+            <img src="{{ asset('img/rtlogolight.png') }}" alt="logo" class="img-fluid w-100">
         </a>
 
         <nav id="navbar" class="navbar">
@@ -66,7 +66,7 @@
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/123.jpg') }});">
+                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
@@ -79,7 +79,7 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/123.jpg') }});">
+                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -92,7 +92,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/123.jpg') }});">
+                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Frontend\CheckoutController;
 use App\Http\Controllers\Frontend\HomepageController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -20,11 +21,11 @@ Auth::routes();
 
 Route::get('/', [HomepageController::class, 'index'])->name('frontend.index');
 Route::get('/shop', [HomepageController::class, 'shop'])->name('frontend.shop');
+Route::get('/checkout', [CheckoutController::class, 'index'])->name('frontend.checkout');
 
-Route::prefix('/admin')->middleware('auth', 'isAdmin')->group(function (){
+Route::prefix('/admin')->middleware('auth', 'isAdmin')->group(function () {
     Route::get('/dashaboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
 
     Route::get('/category', [DashboardController::class, 'category'])->name('admin.dashboard.category');
     Route::get('/category/create', [DashboardController::class, 'category_create'])->name('admin.dashboard.category.create');
 });
- 

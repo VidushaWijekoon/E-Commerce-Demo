@@ -13,7 +13,7 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-12">
                     <div class="toolbox">
                         <div class="toolbox-left">
                             <div class="toolbox-info">
@@ -43,7 +43,7 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/luxury.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -69,7 +69,8 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}" class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -78,7 +79,6 @@
                                         <a href="#" class="btn-product btn-wishlist" title="Add to wishlist"><span>add
                                                 to wishlist</span></a>
                                         <div class="product-cat">
-                                            <a href="#">Saloon</a>
                                         </div><!-- End .product-cat -->
                                         <h3 class="product-title"><a href="#">Lorem ipsum dolor sit amet, consectetuer
                                                 skirt</a></h3><!-- End .product-title -->
@@ -90,14 +90,14 @@
 
                                         <div class="product-nav product-nav-thumbs">
                                             <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
 
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -110,7 +110,7 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -136,7 +136,8 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}" class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -158,10 +159,10 @@
 
                                         <div class="product-nav product-nav-thumbs">
                                             <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -175,7 +176,7 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/luxury.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -201,7 +202,9 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}"
+                                            class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -211,7 +214,7 @@
                                             title="Add to wishlist"><span>add
                                                 to wishlist</span></a>
                                         <div class="product-cat">
-                                            <a href="#">Saloon</a>
+
                                         </div><!-- End .product-cat -->
                                         <h3 class="product-title"><a href="#">Lorem ipsum dolor sit amet,
                                                 consectetuer
@@ -224,14 +227,14 @@
 
                                         <div class="product-nav product-nav-thumbs">
                                             <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
 
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/luxury.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -244,7 +247,7 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -270,7 +273,9 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}"
+                                            class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -291,11 +296,11 @@
                                         </div><!-- End .product-content -->
 
                                         <div class="product-nav product-nav-thumbs">
-                                            <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                            <a href="#">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -308,7 +313,7 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -334,7 +339,9 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}"
+                                            class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -355,11 +362,11 @@
                                         </div><!-- End .product-content -->
 
                                         <div class="product-nav product-nav-thumbs">
-                                            <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                            <a href="#">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -372,7 +379,7 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="Product image"
+                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -398,7 +405,9 @@
                                                 title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>book now</span></a>
+                                        <a href="{{ route('frontend.checkout') }}"
+                                            class="btn-product btn-cart"><span>book
+                                                now</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
@@ -419,11 +428,11 @@
                                         </div><!-- End .product-content -->
 
                                         <div class="product-nav product-nav-thumbs">
-                                            <a href="#" class="active">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                            <a href="#">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                             <a href="#">
-                                                <img src="{{ asset('img/cars/Multiseaters.png') }}" alt="product desc">
+                                                <img src="{{ asset('img/room1.jpg') }}" alt="product desc">
                                             </a>
                                         </div><!-- End .product-nav -->
                                     </div><!-- End .product-body -->
@@ -453,104 +462,7 @@
                         </ul>
                     </nav>
                 </div><!-- End .col-lg-9 -->
-                <aside class="col-lg-3 order-lg-first">
-                    <div class="sidebar sidebar-shop">
-                        <div class="widget widget-clean">
-                            <label>Filters:</label>
-                            <a href="#" class="sidebar-filter-clear">Clean All</a>
-                        </div><!-- End .widget widget-clean -->
 
-                        <div class="widget widget-collapsible">
-                            <h3 class="widget-title">
-                                <a data-toggle="collapse" href="#widget-3" role="button" aria-expanded="true"
-                                    aria-controls="widget-3">
-                                    Colour
-                                </a>
-                            </h3><!-- End .widget-title -->
-
-                            <div class="collapse show" id="widget-3">
-                                <div class="widget-body">
-                                    <div class="filter-colors">
-                                        <a href="#" style="background: #b87145;"></a>
-                                        <a href="#" style="background: #f0c04a;"></a>
-                                        <a href="#" style="background: #333333;"></a>
-                                        <a href="#" style="background: #3399cc;"></a>
-                                        <a href="#" style="background: #669933;"></a>
-                                        <a href="#" style="background: #f2719c;"></a>
-                                        <a href="#" style="background: #ebebeb;"></a>
-                                    </div><!-- End .filter-colors -->
-                                </div><!-- End .widget-body -->
-                            </div><!-- End .collapse -->
-                        </div><!-- End .widget -->
-
-                        <div class="widget widget-collapsible">
-                            <h3 class="widget-title">
-                                <a data-toggle="collapse" href="#widget-4" role="button" aria-expanded="true"
-                                    aria-controls="widget-4">
-                                    Brand
-                                </a>
-                            </h3><!-- End .widget-title -->
-
-                            <div class="collapse show" id="widget-4">
-                                <div class="widget-body">
-                                    <div class="filter-items">
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-1">
-                                                <label class="custom-control-label" for="brand-1">Audi</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-2">
-                                                <label class="custom-control-label" for="brand-2">Toyota</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-3">
-                                                <label class="custom-control-label" for="brand-3">Nissan</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-4">
-                                                <label class="custom-control-label" for="brand-4">Jaguar</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-5">
-                                                <label class="custom-control-label" for="brand-5">Ford</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-6">
-                                                <label class="custom-control-label" for="brand-6">Mitsubishi</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="">
-                                                <input type="checkbox" class="custom-control-input" id="brand-7">
-                                                <label class="custom-control-label" for="brand-7">BMW</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                    </div><!-- End .filter-items -->
-                                </div><!-- End .widget-body -->
-                            </div><!-- End .collapse -->
-                        </div><!-- End .widget -->
-
-
-                    </div><!-- End .sidebar sidebar-shop -->
-                </aside><!-- End .col-lg-3 -->
             </div><!-- End .row -->
         </div><!-- End .container -->
     </div><!-- End .page-content -->
