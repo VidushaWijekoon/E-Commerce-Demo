@@ -13,7 +13,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Travel Dreams</title>
+    <title>Event Management</title>
 
     @include('libraries.admin.styles')
     @livewireStyles

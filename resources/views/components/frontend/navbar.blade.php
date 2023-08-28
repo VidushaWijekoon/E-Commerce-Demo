@@ -9,7 +9,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="{{ route('frontend.index') }}">Home</a></li>
-                <li><a class="nav-link scrollto" href="{{ route('frontend.shop') }}">Shop</a></li>
+                <li><a class="nav-link scrollto" href="{{ route('frontend.shop') }}">Events</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -66,7 +66,8 @@
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
+                <div class="carousel-item active"
+                    style="background-image: url({{ asset('https://rtechglobal.ae/frontend/images/events/event-background.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
@@ -79,7 +80,8 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
+                <div class="carousel-item active"
+                    style="background-image: url({{ asset('https://rtechglobal.ae/frontend/images/events/event-background.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -92,7 +94,8 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item active" style="background-image: url({{ asset('img/hotels/3.jpg') }});">
+                <div class="carousel-item active"
+                    style="background-image: url({{ asset('https://rtechglobal.ae/frontend/images/events/event-background.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>

@@ -4,7 +4,7 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                <li class="breadcrumb-item"><a href="#">Events</a></li>
                 <li class="breadcrumb-item active" aria-current="page">List</li>
             </ol>
         </div><!-- End .container -->
@@ -43,8 +43,8 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/wedding.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -110,8 +110,8 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/coopate-events.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -176,8 +176,8 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/Types-of-Promotional-events.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -247,8 +247,8 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/decorations.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -313,8 +313,8 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/event-background.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -379,8 +379,8 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{ asset('img/hotels/1.jpg') }}" alt="Product image"
-                                                class="product-image">
+                                            <img src="{{ asset('https://rtechglobal.ae/frontend/images/events/event-background.jpg') }}"
+                                                alt="Product image" class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
